@@ -9,6 +9,6 @@
 	      if !ok {
 		        printError("logger: adapter " + adapterName + "is nil!")
 	      }
-	  adapterLog := logFun()
+    adapterLog := logFun()
     
 先取出预加载功能函数，然后通过()拿到对应适配器的实体对象(结构类所实现的接口包括了所有底层数据的功能需求)
